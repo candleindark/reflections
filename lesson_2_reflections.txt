@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+To initialize a repository is to set up a repository. This setting up creates a .git directory in the directory where the git 
+init command is ran. The created .git directory is the implementation of the repository. The repository is associated with 
+the containing directory of the .git directory in the way that the repository archives a content that is a part of the directory.
+We initialize, set up, a repository, to archive a content.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A repository is implemented by a .git directory. The working directory of the repository is the containing directory of the .git
+directory. The staging area of a repository is an abstract area to place content to be committed. The staging area allows
+gathering of content to be committed before a commit.
