@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+1. It allows easy identification of unintended changes.
+2. It allows isolation of changes to study their corresponding result.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+1. It allows easy assessment of fulfillment of requirements of the file.
+2. It allows isolation of changes to study their corresponding result.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros:
+1. Allowing to the user to ensure each commit is corresponding to a logical change.
+Cons:
+1. The feature of manual commits requires the attention of the user in making a commit.
+2. The feature of manual commits doesn't guarantee the recording of the development of a content to be at any specific "resolution". In the feature of manual commits, how often commits are made is a result of the user's choices. On the other hand, in the feature of automatic commits, how often commits are made is defined. Thus, the feature of automatic commits guarantees the recording of the development of a content to be at a defined "resolution." 
+3. With the feature of manual commits, a large amount of work can be lost if the user chooses not to commit it. On the other hand, with most implementations of the feature of automatic commits, any large amount of work is committed, so no large amount of work can be lost.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+In any version control system, a commit is a saving of a version of a content. Some version control systems, such as Git, are capable of tracking the developments of contents consisting of multiple files. A commit of a content consisting of multiple files in these systems saves multiple files. Other version control systems, such as the one in Google Docs, are capable of tracking only the developments of contents consisting of one file. Any commit in these systems is a commit of a content consisting of one file so saves only one file.
+
+How can you use the commands git log and git diff to view the history of files?
+The git log command can be used to view a record, consisting of commits, of the development of a file. The git diff command can be used to view
+the difference between points, represented by commits, in the development of a file.
+
+How might using version control make you more confident to make changes that could break something?
+A version control system ensures changes to a content reversible as it allows one to revert a content back to a previous saved version,
+often with little efforts.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try using Git for projects in my iOS Nanodegree.
