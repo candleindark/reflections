@@ -13,3 +13,11 @@ How can you use the staging area to make sure you have one commit per logical ch
 I think the qustion should be 
 How can you use the staging area to make sure you have one logical change per commit?
 I can use the staging area to stage changes that constitute a logical change for a commit.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+Branches would be helpful in experimenting changes and developing a content in two or more
+separate paths starting from a point. In experiencing changes, a new branch can be created
+for committing the experimental changes, leaving other branches, including the master branch,
+untouched. For developing a content in multiple paths, commits belonging to a particular
+development path can be made to a particular branch, leaving other branches untouched. 
