@@ -8,3 +8,8 @@ How is the staging area different from the working directory and the repository?
 A repository is implemented by a .git directory. The working directory of the repository is the containing directory of the .git
 directory. The staging area of a repository is an abstract area to place content to be committed. The staging area allows
 gathering of content to be committed before a commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I think the qustion should be 
+How can you use the staging area to make sure you have one logical change per commit?
+I can use the staging area to stage changes that constitute a logical change for a commit.
