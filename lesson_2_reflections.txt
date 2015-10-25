@@ -20,4 +20,7 @@ Branches would be helpful in experimenting changes and developing a content in t
 separate paths starting from a point. In experiencing changes, a new branch can be created
 for committing the experimental changes, leaving other branches, including the master branch,
 untouched. For developing a content in multiple paths, commits belonging to a particular
-development path can be made to a particular branch, leaving other branches untouched. 
+development path can be made to a particular branch, leaving other branches untouched.
+
+How do the diagrams help you visualize the branch structure?
+A diagram is a visualization of a branch structure. Seeing a diagram allows one to visualize the corresponding structure in the visualization.
