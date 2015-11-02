@@ -24,3 +24,7 @@ development path can be made to a particular branch, leaving other branches unto
 
 How do the diagrams help you visualize the branch structure?
 A diagram is a visualization of a branch structure. Seeing a diagram allows one to visualize the corresponding structure in the visualization.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is a commit that "includes" all changes presented in both branches. We represent this commit
+as a point where the two branches merge to symbolize that the commit is developed from the commits in the two branches.
