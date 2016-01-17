@@ -27,7 +27,7 @@ A diagram is a visualization of a branch structure. Seeing a diagram allows one 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches is a commit that "includes" all changes presented in both branches. We represent this commit
-as a point where the two branches merge to symbolize that the commit is developed from commits in the two branches
+as a point where the two branches merge to symbolize that the commit is developed from commits in the two branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 The pro is that it automated some of the routine tasks. The con is that Git's automatic merging doesn't always generate a correct merge for it
