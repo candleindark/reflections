@@ -1,3 +1,3 @@
 When would you want to use a remote repository rather than keeping all your work local?
 I would want to use a remote repository when I want to share the development of a content with other people or
-to merely have a remote back up of the development of a content.
+to merely have a remote backup of the development of a content.
