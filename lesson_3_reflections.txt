@@ -4,3 +4,9 @@ to merely have a remote backup of the development of a content.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Pulling changes manually gives one the control of when changes on the remote repository are brought to the local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forking and cloning both duplicate repositories. Branching doesn't duplicate any repository but tracks the development of a content
+in a repository. Forking should be used if one is to make a repository in GitHub that is a duplicate of another repository in GitHub.
+If one is to make a repository outside of GitHub that is a duplicate of another repository, cloning is a good option. Use branching
+to track the development of a content in different development paths.
