@@ -10,3 +10,7 @@ Forking and cloning both duplicate repositories. Branching doesn't duplicate any
 in a repository. Forking should be used if one is to make a repository in GitHub that is a duplicate of another repository in GitHub.
 If one is to make a repository outside of GitHub that is a duplicate of another repository, cloning is a good option. Use branching
 to track the development of a content in different development paths.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The benefit is that the local git system has knowledge of the last known state of a remote even when
+it is not able to access the remote, e.g. having no network access.
