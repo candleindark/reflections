@@ -14,3 +14,7 @@ to track the development of a content in different development paths.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit is that the local git system has knowledge of the last known state of a remote even when
 it is not able to access the remote, e.g. having no network access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git and GitHub, I would use SVN to collaborate. SVN is much more difficult to setup. Making branches
+in SVN also seems less convenient. SVN doesn't have something comparable to staging area in Git either.
