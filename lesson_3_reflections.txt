@@ -18,3 +18,9 @@ it is not able to access the remote, e.g. having no network access.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without Git and GitHub, I would use SVN to collaborate. SVN is much more difficult to setup. Making branches
 in SVN also seems less convenient. SVN doesn't have something comparable to staging area in Git either.
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+Changes that I want to commit but do not want to commit to the master branch yet
+are the changes that I would like to commit to a branch that is not the master
+branch.
